@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تصميم مجلس فاخر | Luxury Majlis Interior</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #fdfbf7; /* Very light beige background */
+            color: #333;
+        }
+        .hero-overlay {
+            background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+        }
+        .gold-text {
+            color: #c5a059;
+        }
+        .gold-bg {
+            background-color: #c5a059;
+        }
+        .gold-border {
+            border-color: #c5a059;
+        }
+        .maroon-bg {
+            background-color: #58181f; /* Approximate deep red/maroon from image */
+        }
+        .wood-bg {
+            background-color: #8b5a2b;
+        }
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="smooth-scroll">
+
+    <!-- 1️⃣ Hero Section -->
+    <header class="relative h-screen min-h-[600px] w-full overflow-hidden">
+        <!-- Background Image (Illuminated Horses) -->
+        <div class="absolute inset-0 w-full h-full">
+            <img src="img/majlis-02.jpg" alt="Luxury Majlis Hero" class="w-full h-full object-cover object-center">
+        </div>
+        
+        <!-- Overlay -->
+        <div class="absolute inset-0 hero-overlay"></div>
+
+        <!-- Content -->
+        <div class="relative z-10 flex flex-col justify-center h-full max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-white">
+            <div class="max-w-2xl animate-fade-in-up">
+                <h2 class="text-xl md:text-2xl font-light tracking-widest uppercase mb-2 text-gray-200">Interior Design Project</h2>
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+                    Luxury Majlis <br> <span class="gold-text">Interior</span>
+                </h1>
+                <p class="text-lg md:text-2xl mb-8 font-light border-r-4 border-[#c5a059] pr-4">
+                    تصميم مجلس عصري بدرجات بيج وذهبي مع هوية عربية راقية.
+                </p>
+
+                <!-- Bullets -->
+                <ul class="space-y-3 mb-10 text-gray-100 text-sm md:text-lg">
+                    <li class="flex items-center gap-3">
+                        <i data-lucide="check-circle" class="w-5 h-5 text-[#c5a059]"></i>
+                        جلسات مريحة بطابع فندقي.
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i data-lucide="check-circle" class="w-5 h-5 text-[#c5a059]"></i>
+                        إضاءة مخفية وخطوط سقف حديثة.
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i data-lucide="check-circle" class="w-5 h-5 text-[#c5a059]"></i>
+                        لمسات خيل عربية تضيف شخصية للمكان.
+                    </li>
+                </ul>
+
+                <!-- CTA -->
+                <a href="#gallery" class="inline-flex items-center gap-2 bg-[#c5a059] hover:bg-[#b08d4b] text-white px-8 py-4 rounded-full text-lg font-bold transition-all transform hover:scale-105 shadow-lg">
+                    شوف تفاصيل المشروع
+                    <i data-lucide="arrow-down" class="w-5 h-5"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2️⃣ About the Project -->
+    <section id="about" class="py-20 px-6 bg-[#f7f3eb]">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-800">عن التصميم</h2>
+            <p class="max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed mb-12">
+                التصميم يعتمد على ألوان هادئة، خامات طبيعية، وتوزيع جلسات متوازن يناسب الاستقبال الرسمي والعائلي، مع تركيز على الإحساس بالراحة والفخامة في نفس الوقت.
+            </p>
+
+            <!-- Info Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border-t-4 border-[#c5a059]">
+                    <div class="flex justify-center mb-4 text-[#c5a059]">
+                        <i data-lucide="gem" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">الستايل</h3>
+                    <p class="text-gray-500">مودرن لوكس – Modern Luxury</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border-t-4 border-[#c5a059]">
+                    <div class="flex justify-center mb-4 text-[#c5a059]">
+                        <i data-lucide="layout-dashboard" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">المساحة</h3>
+                    <p class="text-gray-500">مجلس رئيسي عائلي / ضيوف</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border-t-4 border-[#c5a059]">
+                    <div class="flex justify-center mb-4 text-[#c5a059]">
+                        <i data-lucide="palette" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">الألوان الأساسية</h3>
+                    <p class="text-gray-500">بيج – أوف وايت – خشب – لمسات ذهبي وعنابي</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3️⃣ Project Gallery -->
+    <section id="gallery" class="py-20 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-[#c5a059] uppercase tracking-widest font-semibold text-sm">المعرض</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mt-2">تفاصيل الفخامة</h2>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Image 1: Window -->
+                <div class="group cursor-pointer">
+                    <div class="overflow-hidden rounded-2xl shadow-lg mb-4 h-[300px] md:h-[400px]">
+                        <img src="img/majlis-01.jpg" alt="جانب الجلسة الطولي" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 text-gray-800 group-hover:text-[#c5a059] transition-colors">جانب الجلسة الطولي</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        جلسة طويلة متصلة مع شباك مركزي وستائر شفافة تعطي إضاءة طبيعية ناعمة، مع طاولات وسط معدنية بسطح عاكس.
+                    </p>
+                </div>
+
+                <!-- Image 2: Red Painting -->
+                <div class="group cursor-pointer">
+                    <div class="overflow-hidden rounded-2xl shadow-lg mb-4 h-[300px] md:h-[400px]">
+                        <img src="img/majlis-02.jpg" alt="جدار اللوحة الرئيسية" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 text-gray-800 group-hover:text-[#c5a059] transition-colors">جدار اللوحة الرئيسية</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        لوحة خيل بتفاصيل شرقية غنية، في منتصف الجدار، محاطة بخشب عمودي وإضاءة سبوت لايت لتعزيز التركيز البصري.
+                    </p>
+                </div>
+
+                <!-- Image 3: Illuminated Horses -->
+                <div class="group cursor-pointer">
+                    <div class="overflow-hidden rounded-2xl shadow-lg mb-4 h-[300px] md:h-[400px]">
+                        <img src="img/majlis-03.jpg" alt="حائط الخيول المضيء" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 text-gray-800 group-hover:text-[#c5a059] transition-colors">حائط الخيول المضيء</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        نقش خيول مضيء داخل لوح خشبي كبير، يشتغل كنقطة جذب قوية للمساحة ويعزز الرابط بين الفخامة والطابع العربي.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4️⃣ Concept & Design Notes -->
+    <section class="py-20 px-6 bg-[#f9f9f9]">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Concept -->
+                <div>
+                    <h2 class="text-3xl font-bold mb-6 border-r-4 border-[#c5a059] pr-4">فكرة التصميم<br><span class="text-lg font-normal text-gray-500">Design Concept</span></h2>
+                    <p class="text-gray-600 text-lg leading-loose mb-6">
+                        الفكرة الأساسية هي خلق مجلس هادئ ومريح لكن في نفس الوقت يبدو غني وفخم، من خلال استخدام جلسات منخفضة واسعة، ألوان حيادية دافئة، ولمسات ذهبية ناعمة في الطاولات والديكور، مع توظيف عناصر الخيل لربط التصميم بالهوية العربية.
+                    </p>
+                </div>
+
+                <!-- Key Elements -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm">
+                    <h3 class="text-xl font-bold mb-6 text-gray-800">العناصر الأساسية</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 w-2 h-2 rounded-full bg-[#c5a059] flex-shrink-0"></span>
+                            <p class="text-gray-600">توزيع الجلسات بشكل متقابل لسهولة التواصل بين الجالسين.</p>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 w-2 h-2 rounded-full bg-[#c5a059] flex-shrink-0"></span>
+                            <p class="text-gray-600">استخدام خشب عمودي على الجدران لإضافة ارتفاع وإحساس بالفخامة.</p>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 w-2 h-2 rounded-full bg-[#c5a059] flex-shrink-0"></span>
+                            <p class="text-gray-600">إضاءة مخفية في السقف والجدران بدل الثريات الثقيلة، عشان الطابع يكون مودرن.</p>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 w-2 h-2 rounded-full bg-[#c5a059] flex-shrink-0"></span>
+                            <p class="text-gray-600">إضافة نباتات داخلية لتعويض هدوء الألوان وإعطاء حياة للمكان.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5️⃣ Color & Material Palette -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold mb-4">لوحة الألوان والخامات</h2>
+                <p class="text-gray-500 max-w-2xl mx-auto">
+                    تم اختيار الألوان بحيث تكون الخلفية هادئة ومحايدة، مع لمسات لونية قوية في الأقمشة واللوحات عشان تبرز شخصية التصميم بدون ما تزعج العين.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <!-- Color 1 -->
+                <div class="flex flex-col items-center">
+                    <div class="w-24 h-24 rounded-full bg-[#F5F5DC] shadow-inner mb-4 border border-gray-200"></div>
+                    <h4 class="font-bold text-gray-800">بيج فاتح</h4>
+                    <span class="text-xs text-gray-500">الأرضية والجلسات</span>
+                </div>
+                <!-- Color 2 -->
+                <div class="flex flex-col items-center">
+                    <div class="w-24 h-24 rounded-full wood-bg shadow-inner mb-4 border border-gray-200"></div>
+                    <h4 class="font-bold text-gray-800">خشب بني دافي</h4>
+                    <span class="text-xs text-gray-500">الأعمدة والجدران</span>
+                </div>
+                <!-- Color 3 -->
+                <div class="flex flex-col items-center">
+                    <div class="w-24 h-24 rounded-full bg-gradient-to-br from-[#FFD700] to-[#c5a059] shadow-inner mb-4 border border-gray-200"></div>
+                    <h4 class="font-bold text-gray-800">ذهبي ميتاليك</h4>
+                    <span class="text-xs text-gray-500">أرجل الطاولات</span>
+                </div>
+                <!-- Color 4 -->
+                <div class="flex flex-col items-center">
+                    <div class="w-24 h-24 rounded-full maroon-bg shadow-inner mb-4 border border-gray-200"></div>
+                    <h4 class="font-bold text-gray-800">عنابي غامق</h4>
+                    <span class="text-xs text-gray-500">الوسائد واللوحات</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6️⃣ Layout / Furniture Arrangement -->
+    <section class="py-16 px-6 bg-[#2d2d2d] text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="inline-block p-4 rounded-full bg-[#3d3d3d] mb-6">
+                <i data-lucide="sofa" class="w-8 h-8 text-[#c5a059]"></i>
+            </div>
+            <h2 class="text-3xl font-bold mb-6">توزيع الأثاث</h2>
+            <p class="text-lg text-gray-300 leading-loose">
+                المجلس يعتمد على صفين رئيسيين من الكنبات المتقابلة بطول الجدار، مع جلسات منفصلة في المنتصف لمزيد من المرونة. الطاولات الوسط تم تصميمها بخطوط مستقيمة وأرجل منحوتة بشكل بسيط لتتماشى مع الطابع العصري وتسمح برؤية الأرضية قدر الإمكان.
+            </p>
+        </div>
+    </section>
+
+    <!-- 7️⃣ CTA Section -->
+    <footer class="py-20 px-6 bg-[#c5a059] relative overflow-hidden">
+        <!-- Decor pattern opacity -->
+        <div class="absolute inset-0 opacity-10" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iMSI+PHBhdGggZD0iTTAgMTBMMTAgMEwyMCAxMEwxMCAyMHoiLz48L3N2Zz4=');"></div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto text-center text-white">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6">حابب تنفّذ تصميم مشابه؟</h2>
+            <p class="text-xl mb-10 text-white/90">
+                نقدر نطوّر الكونسبت ده حسب مقاس ومساحة مجلسك، مع تعديل الألوان والمواد بما يناسب ذوقك وميزانيتك.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <button onclick="document.getElementById('contact-modal').classList.remove('hidden')" class="bg-white text-[#c5a059] px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg flex items-center justify-center gap-2">
+                    <i data-lucide="calendar"></i>
+                    احجز استشارة تصميم
+                </button>
+                <button onclick="alert('سيتم توجيهك إلى الواتساب...')" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition-colors flex items-center justify-center gap-2">
+                    <i data-lucide="message-circle"></i>
+                    تواصل عبر الواتساب
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple Modal for Contact -->
+    <div id="contact-modal" class="fixed inset-0 bg-black/50 z-50 hidden flex items-center justify-center p-4 backdrop-blur-sm">
+        <div class="bg-white rounded-2xl p-8 max-w-md w-full relative animate-fade-in-up">
+            <button onclick="document.getElementById('contact-modal').classList.add('hidden')" class="absolute top-4 left-4 text-gray-400 hover:text-gray-600">
+                <i data-lucide="x"></i>
+            </button>
+            <h3 class="text-2xl font-bold mb-4 text-center">تواصل معنا</h3>
+            <p class="text-gray-500 text-center mb-6">اترك بياناتك وسنتواصل معك قريباً</p>
+            <form class="space-y-4" onsubmit="event.preventDefault(); alert('تم استلام طلبك بنجاح!'); document.getElementById('contact-modal').classList.add('hidden');">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">الاسم</label>
+                    <input type="text" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-[#c5a059] focus:border-transparent outline-none" required>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">رقم الجوال</label>
+                    <input type="tel" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-[#c5a059] focus:border-transparent outline-none" required>
+                </div>
+                <button type="submit" class="w-full bg-[#c5a059] text-white font-bold py-3 rounded-lg hover:bg-[#b08d4b] transition-colors">
+                    إرسال الطلب
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+
+        // Simple animation on scroll
+        document.addEventListener('DOMContentLoaded', () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('opacity-100', 'translate-y-0');
+                        entry.target.classList.remove('opacity-0', 'translate-y-10');
+                    }
+                });
+            });
+
+            // Add animation classes to sections
+            document.querySelectorAll('section > div').forEach(el => {
+                el.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-10');
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
